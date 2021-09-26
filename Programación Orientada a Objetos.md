@@ -306,4 +306,25 @@ De esa clase padre *car*, se pude derivar dos clases hijas *car basic y car adva
 
 <img title="" src="https://static.platzi.com/media/user_upload/Uber%20%281%29-c4aeb826-1187-4cd8-9696-8074a722a316.jpg" alt="una imagen" width="757">
 
-# 
+## Clases, Objetos y método constructor
+
+---
+
+### *Definiendo clases en Java y Python*
+
+Para corre un codigo Java desde la terminal, se hace:
+
+```bash
+javac main.java //Esto nos creara el fichero binario main.class
+java main //Con esto corremos el fichero binario
+```
+
+no hace falta poner `java main.class` el archivo binario, solo el nombre "main" sin el .class
+
+Para correr un programa python desde la terminal, se hace:
+
+```bash
+python3 main.py
+```
+
+En la carpeta donde se tiene el fichero.
