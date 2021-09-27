@@ -6,6 +6,5 @@ class UberX extends Car {
         super(license, driver); // Representa a la clase padre de la herencia, constructor de Car
         this.brand = brand;
         this.model = model;
-
     }
 }
