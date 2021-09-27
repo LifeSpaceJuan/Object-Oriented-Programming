@@ -200,7 +200,7 @@ En el nombre de la clase, se le dice la  *identidad*, los atributos de la clases
 #### Clases en los lenguajes de programación
 
 ```java
-class Person{}
+class Person{} 
 ```
 
 ```py
@@ -312,7 +312,7 @@ De esa clase padre *car*, se pude derivar dos clases hijas *car basic y car adva
 
 ### *Definiendo clases en Java y Python*
 
-Para corre un codigo Java desde la terminal, se hace:
+Para correr un codigo Java desde la terminal, se hace:
 
 ```bash
 javac main.java //Esto nos creara el fichero binario main.class
@@ -328,3 +328,71 @@ python3 main.py
 ```
 
 En la carpeta donde se tiene el fichero.
+
+### *Objetos, método constructor y su sintaxis en código*
+
+El objeto es una instancia de una clase.
+
+Los `()` representan a los metodos constructores de una clase.
+
+#### Metodo constructor
+
+- Dar un estado inicial al objeto
+
+- Tiene el mismo nombre de la clase
+
+- Son los parámetros mínomos que necesita el objeto para que pueda vivir
+
+```java
+Person person = new Person(); // Declaracion objecto
+// Metodo constructor de una clase
+public Person(String name){
+    this.name = name;
+}
+// Como se llama un objeto
+Person person = new
+Person ("Ann");
+```
+
+```python
+persona = Person() # Declaración objeto
+# Metodo constructor de una clase
+def__init__(self,name):
+    self.name = name
+# Llamar objeto
+person = Person("Anna")
+```
+
+```javascript
+// Declaración objeto
+var person = new Person();
+// Constructor
+function Person(name){
+    this.name = name;
+}
+// Llamar objeto
+var person = new Person("Ann");
+```
+
+```php
+//Declaración objeto
+$person = new Person();
+// Constructor
+public function__construct($name){
+    $this->name = name;
+}
+// Llamar objeto
+$person = new Person("Ann");
+```
+
+### *JavaScript orientado a objetos, lo más nuevo*
+
+[JavaScript orientado a objetos, lo más nuevo (platzi.com)](https://platzi.com/clases/1474-oop/17056-javascript-orientado-a-objetos-lo-mas-nuevo/)
+
+### *Declarando un método constructor en Python*
+
+[Declarando un método constructor en Python (platzi.com)](https://platzi.com/clases/1474-oop/16688-declarando-un-metodo-constructor-en-python/)
+
+Como correr el código desde la terminal:
+
+[How to use PHP through command-line (linuxhint.com)](https://linuxhint.com/use_php_through_command_line/#:~:text=Run%20the%20PHP%20file%20from%20the%20terminal%20using,as%20input%2C%20and%20100%20is%20printed%20as%20output.)
